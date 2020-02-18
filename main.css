@@ -1,0 +1,329 @@
+:root { 
+  --header-height: 56px; 
+  --navy-blue: #065fd4;
+  --red-color: #f00;
+  --grey: #606060;
+  --grey2: #909090;
+  --light-grey: #F9F9F9;
+  --itemGroupBorderBottomColor: rgba(0, 0, 0, 0.1);;
+} 
+
+html{
+  
+  font-family: Roboto, Arial, sans-serif; 
+}
+
+body{
+  margin: 0;
+}
+
+#website{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 50px 1fr;
+  height: 100vh;
+}
+
+/* Header CSS */
+
+#appHeader{
+  grid-column: 1 / 13;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: var(--header-height);
+  margin: 10px 26px;
+}
+
+#appHeader .leftIcons {
+  display: flex;
+  justify-content: center;
+}
+
+#appHeader .leftIcons .hamburgerIcon {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+
+#appHeader .leftIcons .logo {
+  font-size: 1.4rem;
+}
+
+#appHeader .searchBar {
+  min-height: 24px;
+  border-radius: 2px;
+  min-width: 200px;
+}
+
+#appHeader .rightBtns {
+  display: flex;
+  align-items: center;
+}
+
+#appHeader .rightBtn {
+  font-size: 1.4rem;
+  margin: 0 12px;
+}
+
+#appHeader .rightBtns .rightBtn.recordVideoIcon {
+
+}
+
+#appHeader .rightBtns .rightBtn.appsIcon {
+
+}
+
+#appHeader .rightBtns .rightBtn.settingsIcon {
+
+}
+
+#appHeader .signInBtn {
+  display: flex;
+  padding: 10px 14px;
+  border: 1px solid var(--navy-blue);
+}
+
+#appHeader .signInBtn .userIcon {
+  margin-right: 6px;
+}
+
+#appHeader .rightBtn .signInBtn .btnText {
+
+}
+
+/* SidebarSmall */
+
+.SideBarSmall{
+  display: flex;
+  justify-content: center;
+}
+
+.SideBarSmall .items{
+  
+}
+
+.SideBarSmall .items .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0 14px;
+}
+
+.SideBarSmall .items .item.item__selected{
+  color: var(--red-color);
+}
+
+.SideBarSmall .items .itemIcon{
+  margin-bottom: 8px
+}
+
+.SideBarSmall .items .item .item-text{
+  font-size: .6rem;
+  color: var(--grey2);
+}
+
+
+
+.SideBarSmall{
+  grid-column: span 1;
+  display: none;
+  
+}
+
+/* SideBar CSS */
+
+.SideBar{
+  max-width: 240px;
+  grid-column: span 1;
+  overflow-y: scroll;
+}
+
+.SideBar .itemGroup{
+  padding: 12px 0;
+}
+.SideBar .itemGroup:not(:last-child) {
+  border-bottom: 1px solid var(--itemGroupBorderBottomColor);
+  
+}
+
+
+.SideBar .itemGroup .item{
+  display: flex;
+  padding: 12px 28px;
+}
+
+.SideBar .itemGroup .item.item__active{
+  display: flex;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+.SideBar .itemGroup .item .item-icon{
+  margin-right: 12px;
+}
+
+.SideBar .itemGroup .item .item-icon__active{
+  color: var(--red-color);
+}
+
+
+
+.SideBar .itemGroup .item .item-icon .item-text{
+  
+}
+
+
+/* Content Section CSS */
+
+.ContentSection {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows:  auto-fit;
+  grid-auto-rows: minmax(min-content, max-content);
+  padding: 30px 2% 0px 2%;
+  background: var(--light-grey);
+  overflow-y: scroll;
+}
+
+.ContentSection .videoItem{
+  grid-column: span 3;
+}
+
+.ContentSection .videoItem .videoThumbnail{
+
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ContentSection .videoItem .videoDescription{
+  display: flex;
+}
+
+.ContentSection .videoItem .videoDescription .channelIcon{
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+}
+
+.ContentSection .videoItem .videoDescription .videoDescriptionRightSide{
+  
+}
+
+.ContentSection .videoItem .videoDescription .videoDescriptionRightSide .videoTitle{
+  font-size: .95rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  
+}
+
+.ContentSection .videoItem .videoDescription .videoDescriptionRightSide .channelName{
+  font-size: .85rem;
+  margin-bottom: 2px;
+  color: var(--grey);
+}
+
+.ContentSection .videoItem .videoDescription .videoDescriptionRightSide .amtOfViews{
+  color: var(--grey);
+}
+
+.ContentSection .videoItem  .videoDescription .videoDescriptionRightSide .amtOfViews span{
+
+}
+
+/* Footer CSS */
+
+.footer{
+
+}
+
+.footer .footerLinksGroup{
+  padding: 16px 24px 0;
+}
+
+.footer .footerLinksGroup a{
+  text-decoration: none;
+  color: var(--grey);
+  font-size: .80rem;
+  line-height: 1.2;
+}
+
+.footer .footerLinksGroup a:not(:last-child){
+  margin-right: 8px;
+
+}
+
+.footer .copyright-text{
+  padding: 16px 24px;
+  color: var(--grey2);
+  font-size: .80rem;
+}
+
+@media (max-width: 1312px){
+  #website {
+    grid-template-columns: 72px 1fr;
+
+}
+  .SideBarSmall{
+    display:flex;
+  }
+  .SideBar{
+    display: none;
+  }
+
+}
+
+/*  Medium devices devices less than 1200px */
+@media (max-width: 1199.98px){
+  .ContentSection .videoItem{
+    grid-column: span 3;
+  }  
+}
+
+/*  Medium devices devices less than 992px */
+@media (max-width: 991.98px) { 
+  .ContentSection .videoItem{
+    grid-column: span 4;
+  }
+}
+
+ /*  Small devices devices less than 768px */
+@media (max-width: 767.98px) {
+  .ContentSection .videoItem{
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 792px){
+
+  .SideBarSmall{
+    display:none;
+  }
+  .ContentSection{
+    grid-column: span 12;
+  }
+
+}
+
+@media (max-width: 656px){
+  #appHeader .searchBar {
+    display: none;
+  }
+
+}
+
+/* Extra small devices less than 576px */
+@media (max-width: 575.98px) {  
+  .ContentSection {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ContentSection .videoItem{
+    grid-column: span 6;
+  }
+}
+
+

@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/638808ac57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Youtube Clone</title>
+  </head>
+  <body id="website">
+    
+    <!-- Header is Below -->
+    <header id="appHeader">
+
+      <div class="leftIcons">
+        <i class="hamburgerIcon fas fa-bars"></i>
+        <div class="logo">Youtube</div>
+      </div>
+
+      <input class="searchBar" type="text" >
+
+      <div class="rightBtns">
+        <i class="rightBtn recordVideoIcon fas fa-video"></i>
+        <i class="rightBtn appsIcon fas fa-th"></i>
+        <i class="rightBtn settingsIcon fas fa-ellipsis-v"></i>
+        <div class="signInBtn">
+          <i class="userIcon fas fa-user-circle"></i>
+          <div class="btnText">Sign In</div>
+        </div>
+      </div>
+
+    </header>
+    <!-- Header is Above -->
+
+    <!-- SideBar  Below -->
+    <div class="SideBarSmall">
+      <div class="items">
+        <div class="item item__selected">
+          <i class="itemIcon fas fa-home"></i>
+          <div class="item-text">
+            Home
+          </div>
+        </div>
+        <div class="item">
+          <i class="itemIcon fas fa-fire"></i>
+          <div class="item-text">
+            Trending
+          </div>
+        </div>
+        <div class="item">
+          <i class="itemIcon fas fa-film"></i>
+          <div class="item-text">
+            Subscriptions
+          </div>
+        </div>
+        <div class="item">
+          <i class="itemIcon fas fa-book-open"></i>
+          <div class="item-text">
+            Library
+          </div>
+        </div>
+        <div class="item">
+          <i class="itemIcon fas fa-history"></i>
+          <div class="item-text">
+            History
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="SideBar">
+      <div class="itemGroup1 itemGroup">
+        <div class="item item__active">
+          <i class="item-icon item-icon__active fas fa-adjust"></i>
+          <div class="item-text">Home</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-fire-alt"></i>
+          <div class="item-text">Trending</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-film"></i>
+          <div class="item-text">Subscriptions</div>
+        </div>
+      </div>
+
+      <div class="itemGroup2 itemGroup">
+        <div class="item">
+          <i class="item-icon fas fas fa-book"></i>
+          <div class="item-text">Library</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-history"></i>
+          <div class="item-text">History</div>
+        </div>
+      </div>
+
+      <div class="itemGroup3 itemGroup">
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Music</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Sports</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Gaming</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Movies</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">TV Shows</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">News</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Live</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Fashion</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Spotlight</div>
+        </div>
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">360 Video</div>
+        </div>
+      </div>
+
+      <div class="itemGroup4 itemGroup">
+        <div class="item">
+          <i class="item-icon fas fa-adjust"></i>
+          <div class="item-text">Youtube Premium</div>
+        </div>
+      </div>
+
+      <div class="itemGroup5 itemGroup">
+        <div class="item">
+          <i class="item-icon fas fa-history"></i>
+          <div class="item-text">Settings</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footerLinksGroup1 footerLinksGroup">
+          <a href="">About</a>
+          <a href="">Press</a>
+          <a href="">Copyright</a>
+          <a href="">Contact Us</a>
+          <a href="">Creators</a>
+          <a href="">Advertise</a>
+          <a href="">Developers</a>
+          <a href="">Developers</a>
+        </div>
+
+        <div class="footerLinksGroup2 footerLinksGroup">
+          <a href="">Terms</a>
+          <a href="">Privacy</a>
+          <a href="">Policy & Safety</a>
+          <a href="">Test new features</a>
+        </div>
+
+        <div class="copyright-text">© 2020 Google LLC</div>
+      </div>
+    </div>
+    <!-- SideBar Above -->
+
+    <!-- contentSection below -->
+    <div class="ContentSection">
+
+      <div class="videoItem">
+
+        <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+        <div class="videoDescription">
+
+          <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+          <div class="videoDescriptionRightSide">
+
+            <div class="videoTitle">
+              Yussef Dayes - False Prophets
+            </div>
+            <div class="channelName">Yussef Dayes</div>
+            <div class="amtOfViews"><span>217k</span> views</div>
+          </div>
+
+        </div>
+
+      </div>  
+
+      <div class="videoItem">
+
+        <img class="videoThumbnail" src="https://images.pexels.com/photos/2747050/pexels-photo-2747050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+        <div class="videoDescription">
+
+          <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+          <div class="videoDescriptionRightSide">
+
+            <div class="videoTitle">
+              Yussef Dayes - False Prophets
+            </div>
+            <div class="channelName">Yussef Dayes</div>
+            <div class="amtOfViews"><span>217k</span> views</div>
+          </div>
+
+        </div>
+
+      </div> 
+
+      <div class="videoItem">
+
+        <img class="videoThumbnail" src="https://images.pexels.com/photos/1230684/pexels-photo-1230684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <div class="videoDescription">
+
+          <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+          <div class="videoDescriptionRightSide">
+
+            <div class="videoTitle">
+              Yussef Dayes - False Prophets
+            </div>
+            <div class="channelName">Yussef Dayes</div>
+            <div class="amtOfViews"><span>217k</span> views</div>
+          </div>
+
+        </div>
+
+      </div> 
+      <div class="videoItem">
+
+        <img class="videoThumbnail" src="https://images.pexels.com/photos/3695327/pexels-photo-3695327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+        <div class="videoDescription">
+
+          <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+          <div class="videoDescriptionRightSide">
+
+            <div class="videoTitle">
+              Yussef Dayes - False Prophets
+            </div>
+            <div class="channelName">Yussef Dayes</div>
+            <div class="amtOfViews"><span>217k</span> views</div>
+          </div>
+
+        </div>
+
+      </div> 
+
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/1033142/pexels-photo-1033142.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <div class="videoItem">
+
+      <img class="videoThumbnail" src="https://images.pexels.com/photos/3619784/pexels-photo-3619784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+
+      <div class="videoDescription">
+
+        <img class="channelIcon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="">
+
+        <div class="videoDescriptionRightSide">
+
+          <div class="videoTitle">
+            Yussef Dayes - False Prophets
+          </div>
+          <div class="channelName">Yussef Dayes</div>
+          <div class="amtOfViews"><span>217k</span> views</div>
+        </div>
+
+      </div>
+
+    </div> 
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+    <!-- Extrasssssssssssssssssssssssssssssss-->
+
+
+    
+
+    </div>
+    <!-- contentSection below -->
+
+  </body>
+</html>
